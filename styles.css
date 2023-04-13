@@ -1,0 +1,85 @@
+body{
+    background-color: #d8ffd4;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+thead th:nth-child(1) {
+    width: 20%;
+}
+
+thead th:nth-child(2) {
+    width: 25%;
+}
+
+thead th:nth-child(3) {
+    width: 15%;
+}
+
+thead th:nth-child(4) {
+    width: 40%;
+}
+
+th, td {
+    padding: 20px;
+}
+
+th {
+    letter-spacing: 2px;
+}
+
+td {
+    letter-spacing: 1px;
+}
+
+tbody td {
+    text-align: center;
+}
+
+tfoot th {
+    text-align: right;
+}
+
+thead, tfoot {
+    background: url(img/background.png);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+thead th, tfoot th, tfoot td {
+    background: linear-gradient(to bottom, rgb(16, 211, 33), rgb(32, 155, 41));
+    border: 3px solid #000c46;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #73b769;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #7ecc85;
+}
+
+/*tbody tr {*/
+/*    background-image: url(noise.png);*/
+/*}*/
+
+table {
+    background-color: #949494;
+}
+
+caption {
+    font-family: 'Montserrat', cursive;
+    padding: 20px;
+    font-size: 30px;
+    font-style: italic;
+    caption-side: top;
+    color: #313131;
+    text-align: center;
+    letter-spacing: 1px;
+}
